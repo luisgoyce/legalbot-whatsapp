@@ -1,3 +1,5 @@
-Flask
-twilio
-openai>=1.0.0
+Flask==3.0.3
+twilio==8.6.0
+openai==1.23.2      # SDK 1.x (incluye Whisper)
+requests==2.31.0    # descarga del audio
+python-dotenv==1.0.1  # opcional para pruebas locales
